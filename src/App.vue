@@ -74,14 +74,10 @@ mounted(){
   <section class="d-flex justify-content-end my-4">
     <button @click="getPagePrev()"> prev</button>
     <button @click="getPageNext()"> next</button>
-
   </section>
   <section class="d-flex justify-content-start flex-wrap">
     <ProjectCard v-for="projects in currentPage" :project="projects"></ProjectCard>
   </section>
-  
-  
-  
 </template>
 
 <style scoped>
