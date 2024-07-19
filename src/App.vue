@@ -15,9 +15,7 @@ export default {
     }
   },
   methods: {
-    goToAbout() {
-      this.$router.push('/')
-    },
+   
   
   },
         
@@ -42,7 +40,7 @@ export default {
   <!-- <AppMain/>
   
   <AppFooter/> -->
-  <AppFooter/> -->
+  <
 </template>
 
 <style scoped>
