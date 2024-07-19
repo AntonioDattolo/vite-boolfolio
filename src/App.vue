@@ -42,6 +42,7 @@ export default {
   <!-- <AppMain/>
   
   <AppFooter/> -->
+  <AppFooter/> -->
 </template>
 
 <style scoped>
