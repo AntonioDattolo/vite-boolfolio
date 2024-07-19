@@ -37,10 +37,10 @@ export default {
 
 
   
-  <!-- <AppMain/>
+  <AppMain/>
   
-  <AppFooter/> -->
-  <
+  <AppFooter/> 
+  
 </template>
 
 <style scoped>
