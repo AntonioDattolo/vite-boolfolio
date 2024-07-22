@@ -33,6 +33,9 @@ mounted(){
               <h6>
                 <i :class="project.type.icon "></i>
               </h6>
+              <button>
+                <router-link :to="{name: 'project', params: {slug: project.slug }}">More Details</router-link>
+              </button>
             </div>
         </div>
     </div>
