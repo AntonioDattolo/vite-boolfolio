@@ -19,9 +19,9 @@ console.log(url, "url dell'api")
 
 axios.get(url).then(response => {
     console.log(response, 'chiamata axios');
-    if (response.data.result.project.length != 0) {
-      console.log(response.data.result.project, 'questo è il progetto');
-      this.project = response.data.result.project[0]
+    if (response.data.result) {
+      console.log(response.data.result, 'questo è il progetto');
+      this.project = response.data.result
       
     } else { 
         this.$router.push({ name: 'not-found' });
