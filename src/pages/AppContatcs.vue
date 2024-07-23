@@ -62,7 +62,7 @@ export default {
         <form @submit.prevent="sendMessage()">
           <div class="mb-3">
             <label for="name" class="form-label">Name &#128129;</label>
-            <input type="text" class="form-control" :class="{ 'is-invalid': errors.name }" name="name" id="name" aria-describedby="nameHelper" placeholder="Luke skywalker" v-model="name" />
+            <input type="text" class="form-control" :class="{ 'is-invalid': errors.name }" name="name" id="name" aria-describedby="nameHelper" placeholder="Yugi Muto" v-model="name" />
             <small id="nameHelper" class="text-white">Type your full name</small>
             <p class="text-danger" v-for="(error, index) in errors.name" :key="`name-error-${index}`">
               {{ error }}
@@ -71,7 +71,7 @@ export default {
 
           <div class="mb-3">
             <label for="email" class="form-label">Email &#x1F4BB;</label>
-            <input type="email" class="form-control" :class="{ 'is-invalid': errors.email }" name="email" id="email" aria-describedby="emailHelp" placeholder="abc@mail.com" v-model="email" />
+            <input type="email" class="form-control" :class="{ 'is-invalid': errors.email }" name="email" id="email" aria-describedby="emailHelp" placeholder="MagoNero@Gmail.Deck" v-model="email" />
             <p class="text-danger" v-for="(error, index) in errors.email" :key="`email-error-${index}`">
               {{ error }}
             </p>
